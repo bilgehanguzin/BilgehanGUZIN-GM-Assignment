@@ -1,0 +1,22 @@
+{
+  "name": "bilgehanguzin-gm-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play-report": "npx playwright show-report",
+    "allure-report": "allure generate ./allure-results --clean",
+    "chromium": "npx playwright test --project=chromium",
+    "api": "npx playwright test --project=api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.9.0",
+    "allure-commandline": "^2.24.0",
+    "allure-playwright": "^2.8.1"
+  }
+}

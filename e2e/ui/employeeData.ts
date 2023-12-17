@@ -1,0 +1,8 @@
+export const employee = {
+    firstName: "Alden",
+    lastName: "Cantrell",
+    age: "30",
+    email: "test@test.com",
+    salary: "12345",
+    department: "QA",
+};
